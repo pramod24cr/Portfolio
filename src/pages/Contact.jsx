@@ -1,7 +1,7 @@
 // src/pages/Contact.jsx
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import ContactForm from '../components/contact/ContactForm';
+import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
   return (

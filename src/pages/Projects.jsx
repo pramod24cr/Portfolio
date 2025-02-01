@@ -2,7 +2,7 @@
 // src/pages/Projects.jsx
 import React from "react";
 import {Utensils,Clapperboard } from "lucide-react";
-import ProjectCard from "../components/projects/ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   const projects = [

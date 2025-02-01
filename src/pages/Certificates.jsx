@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-import TerminalCard from '../components/about/TerminalCard';
+import TerminalCard from '../components/TerminalCard';
 import PropTypes from 'prop-types';
 
 // CertificateCard Component
 const CertificateCard = ({ title, issuer, date, onClick }) => (
   <div
-    className="bg-[#1e1e1e] border border-green-500 rounded-lg p-6 shadow-md hover:shadow-xl hover:border-green-400 hover:scale-105 transition-all cursor-pointer w-full flex justify-between items-center"
+    className="bg-[#1a1a1a] border border-green-500 rounded-lg p-6 shadow-md hover:shadow-xl hover:border-green-400 hover:scale-105 transition-all cursor-pointer w-full flex justify-between items-center"
     onClick={onClick}
   >
     {/* Left Section: Title & Issuer */}
@@ -68,7 +68,7 @@ const Certificates = () => {
     <div className="min-h-screen bg-[#121212] pt-24 px-4 md:px-8 font-mono">
       <div className="max-w-5xl mx-auto">
         {/* Section Title */}
-        <h2 className="text-green-500 text-center text-3xl font-bold mb-10">
+        <h2 className="text-green-500 text-center text-2xl font-bold mb-10">
           {'<certificates>'}
         </h2>
 
@@ -114,7 +114,7 @@ const Certificates = () => {
         )}
 
         {/* Closing Section Title */}
-        <h2 className="text-green-500 text-center text-3xl font-bold mt-10">
+        <h2 className="text-green-500 text-center text-2xl font-bold mt-10">
           {'</certificates>'}
         </h2>
       </div>

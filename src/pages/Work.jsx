@@ -1,7 +1,7 @@
 // src/pages/Work.jsx
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import WorkCard from '../components/work/WorkCard';
+import WorkCard from '../components/WorkCard';
 
 const Work = () => {
   const experiences = [

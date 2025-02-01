@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React, { useState, useEffect } from 'react';
-import TerminalCard from '../components/about/TerminalCard';
+import TerminalCard from '../components/TerminalCard';
 
 // Custom SVG components for icons
 const GithubIcon = () => (

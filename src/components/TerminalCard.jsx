@@ -1,6 +1,4 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const TerminalCard = ({ command, output }) => {
   return (
@@ -34,11 +32,11 @@ const TerminalCard = ({ command, output }) => {
 
 // Define prop types
 TerminalCard.propTypes = {
-  command: PropTypes.string.isRequired, // Command is a required string
+  command: PropTypes.string.isRequired,
   output: PropTypes.oneOfType([
-    PropTypes.string, // Output can be a string
-    PropTypes.arrayOf(PropTypes.string), // Or an array of strings
-  ]).isRequired, // Output is required
+    PropTypes.string,
+    PropTypes.arrayOf(PropTypes.string),
+  ]).isRequired,
 };
 
 export default TerminalCard;

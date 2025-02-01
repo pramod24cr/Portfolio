@@ -18,7 +18,7 @@ const Hero = () => {
           <Typewriter
             options={{
               strings: [
-                'Pramod Mahajan',
+                'Pramod Mahajan H',
                 'Software Engineer',
                 'Fullstack Developer',
               ],
@@ -45,7 +45,7 @@ const Hero = () => {
           to="/projects" 
           className="inline-block bg-green-500 !text-black px-6 py-3 rounded text-lg hover:bg-opacity-80 transition-transform transform hover:scale-105"
         >
-          View My Work
+          View My Projects
         </Link>
       </div>
     </div>
