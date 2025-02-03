@@ -42,41 +42,42 @@ const Certificates = () => {
       title: 'OCP: Java SE 11 Developer',
       issuer: 'Oracle',
       date: 'November 2021',
-      image: 'src/components/assets/java_certificate.jpg', // Update with actual path
+      image: 'src/components/assets/java_certificate.jpg',
     },
     {
       title: 'Web Development',
       issuer: 'Udemy',
       date: 'July 2020',
-      image: 'src/components/assets/web_dev_certificate.jpg', // Update with actual path
+      image: 'src/components/assets/web_dev_certificate.jpg',
     },
     {
       title: 'Blockchain Development',
       issuer: 'TRAKLabs',
       date: 'May 2020',
-      image: 'src/components/assets/blockchain_certificate.jpg', // Update with actual path
+      image: 'src/components/assets/blockchain_certificate.jpg',
     },
     {
       title: 'MySQL Bootcamp',
       issuer: 'Udemy',
       date: 'October 2019',
-      image: 'src/components/assets/mysql_certificate.jpg', // Update with actual path
+      image: 'src/components/assets/mysql_certificate.jpg',
     },
   ];
 
   return (
-    <div className="min-h-screen bg-[#121212] pt-24 px-4 md:px-8 font-mono">
+    <div className="min-h-screen bg-[#1a1a1a] pt-24 px-4 md:px-8 font-mono">
       <div className="max-w-5xl mx-auto">
         {/* Section Title */}
         <h2 className="text-green-500 text-center text-2xl font-bold mb-10">
           {'<certificates>'}
         </h2>
+        {/* <h2> {<Br> </Br>}</h2> */}
 
         {/* Terminal Window */}
         <TerminalCard
           command="ls certificates/"
           output={
-            <div className="grid sm:grid-cols-2 gap-6">
+            <div className="grid sm:grid-cols-2 gap-6 mt-8 mb-8">
               {certificates.map((cert, index) => (
                 <CertificateCard
                   key={index}

@@ -10,7 +10,6 @@ import Work from './pages/Work';
 import Projects from './pages/Projects';
 import Certificates from './pages/Certificates';
 import Contact from './pages/Contact';
-import Social from './pages/Social';
 
 const App = () => {
   return (
@@ -23,7 +22,6 @@ const App = () => {
           <Route path="/work" element={<Work />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/certificates" element={<Certificates />} />
-          <Route path="/social" element={<Social />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

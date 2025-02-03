@@ -12,7 +12,6 @@ const Header = () => {
     { path: '/projects', label: '/projects' },
     { path: '/certificates', label: '/certificates' },
     { path: '/contact', label: '/contact' },
-    { path: '/social', label: '/social' },
   ];
 
   return (
@@ -21,7 +20,7 @@ const Header = () => {
         {/* Logo */}
         <Link
           to="/"
-          className="!text-green-500 text-xl hover:opacity-80 transition-opacity"
+          className="!text-green-500 text-2xl text-bold hover:opacity-80 transition-opacity"
         >
           {'</>'}
         </Link>

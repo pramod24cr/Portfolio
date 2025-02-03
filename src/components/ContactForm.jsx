@@ -84,7 +84,7 @@ const ContactForm = () => {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            rows="4"
+            rows="6"
             required
             className="w-full bg-[#2a2a2a] rounded p-2 text-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
           ></textarea>

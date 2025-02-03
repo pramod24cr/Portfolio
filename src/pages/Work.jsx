@@ -29,13 +29,13 @@ const Work = () => {
   return (
     <div className="min-h-screen bg-[#1a1a1a] pt-24 px-4 md:px-8 font-mono">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-green-500  font-bold text-center text-2xl mb-8">{`<work >`}</h2>
+        <h2 className="text-green-500  font-bold text-center text-2xl mb-10">{`<work >`}</h2>
         <div className="space-y-6 ">
           {experiences.map((exp, index) => (
             <WorkCard key={index} {...exp} />
           ))}
         </div>
-        <h2 className="text-green-500 font-bold text-center text-2xl mb-8">{`<work />`}</h2>
+        <h2 className="text-green-500 font-bold text-center text-2xl mt-10">{`<work />`}</h2>
       </div>
     </div>
   );
