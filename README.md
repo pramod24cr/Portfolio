@@ -1,8 +1,21 @@
-# React + Vite
+# Pramod's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Pramod's portfolio! I am a passionate full-stack developer with expertise in web and app development. This portfolio showcases my projects, skills, and experience in the field of software development. Feel free to explore the various sections, and check out my work and contributions to the tech community.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: The portfolio is fully responsive, providing a seamless experience across all devices (mobile, tablet, desktop).
+- **Project Showcases**: Highlights of my full-stack projects with detailed descriptions and technologies used.
+- **Skills Section**: Displays my expertise in various programming languages, frameworks, and tools.
+- **Work Experience**: A summary of my work experience, including notable roles and responsibilities.
+- **Contact Information**: Information on how to get in touch with me or follow me on social media.
+
+## Technologies Used
+
+- **Frontend**: 
+  - React
+  - Tailwind CSS
+  - JavaScript (ES6+)
+- **Version Control**: Git, GitHub
+- **Deployment**: Vercel
+

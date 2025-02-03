@@ -1,8 +1,14 @@
-// components/home/Home.jsx
-/* eslint-disable no-unused-vars */
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Typewriter from 'typewriter-effect';
+import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
+
+const typewriterOptions = {
+  strings: ["Pramod Mahajan H", "Software Engineer", "Fullstack Developer"],
+  autoStart: true,
+  loop: true,
+  delay: 100,
+  deleteSpeed: 50,
+  cursor: "|",
+};
 
 const Hero = () => {
   return (
@@ -14,36 +20,23 @@ const Hero = () => {
         </p>
 
         {/* Name with Typewriter Effect */}
-        <h1 className="text-5xl md:text-7xl font-mono font-bold text-white mb-4">
-          <Typewriter
-            options={{
-              strings: [
-                'Pramod Mahajan H',
-                'Software Engineer',
-                'Fullstack Developer',
-              ],
-              autoStart: true, // Automatically start typing
-              loop: true, // Loop infinitely
-              delay: 100, // Typing speed (in milliseconds)
-              deleteSpeed: 50, // Deleting speed (in milliseconds)
-              cursor: '|', // Custom cursor
-            }}
-          />
+        <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
+          <Typewriter options={typewriterOptions} />
         </h1>
 
         {/* Developer Tags */}
-        <div className=" text-gray-400 flex flex-wrap justify-left text-xl gap-4 mb-8">
+        <div className="text-gray-400 flex flex-wrap items-center text-xl gap-4 mb-8">
           <span>{`<Engineer />`}</span>
-          <span>|</span>
+          <span className="before:content-['|'] before:mx-2"></span>
           <span>{`<Developer />`}</span>
-          <span>|</span>
+          <span className="before:content-['|'] before:mx-2"></span>
           <span>{`<Problem Solver />`}</span>
         </div>
 
         {/* CTA Button */}
-        <Link 
-          to="/projects" 
-          className="inline-block bg-green-500 !text-black px-6 py-3 rounded text-lg hover:bg-opacity-80 transition-transform transform hover:scale-105"
+        <Link
+          to="/projects"
+          className="inline-block bg-green-500 !text-black px-6 py-3 rounded text-lg hover:bg-opacity-80 transition-transform hover:scale-105"
         >
           View My Projects
         </Link>

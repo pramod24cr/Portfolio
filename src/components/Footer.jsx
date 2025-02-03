@@ -1,6 +1,3 @@
-/* eslint-disable no-unused-vars */
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="bg-[#1a1a1a] text-gray-400 font-mono py-12 px-6 md:px-12 mt-16">

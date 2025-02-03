@@ -1,7 +1,6 @@
-/* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
-import TerminalCard from '../components/TerminalCard';
-import PropTypes from 'prop-types';
+import { useState } from "react";
+import TerminalCard from "../components/TerminalCard";
+import PropTypes from "prop-types";
 
 // CertificateCard Component
 const CertificateCard = ({ title, issuer, date, onClick }) => (
@@ -24,7 +23,6 @@ const CertificateCard = ({ title, issuer, date, onClick }) => (
   </div>
 );
 
-
 // Prop Types for CertificateCard
 CertificateCard.propTypes = {
   title: PropTypes.string.isRequired,
@@ -39,28 +37,28 @@ const Certificates = () => {
 
   const certificates = [
     {
-      title: 'OCP: Java SE 11 Developer',
-      issuer: 'Oracle',
-      date: 'November 2021',
-      image: 'src/components/assets/java_certificate.jpg',
+      title: "OCP: Java SE 11 Developer",
+      issuer: "Oracle",
+      date: "November 2021",
+      image: "src/components/assets/java_certificate.jpg",
     },
     {
-      title: 'Web Development',
-      issuer: 'Udemy',
-      date: 'July 2020',
-      image: 'src/components/assets/web_dev_certificate.jpg',
+      title: "Web Development",
+      issuer: "Udemy",
+      date: "July 2020",
+      image: "src/components/assets/web_dev_certificate.jpg",
     },
     {
-      title: 'Blockchain Development',
-      issuer: 'TRAKLabs',
-      date: 'May 2020',
-      image: 'src/components/assets/blockchain_certificate.jpg',
+      title: "Blockchain Development",
+      issuer: "TRAKLabs",
+      date: "May 2020",
+      image: "src/components/assets/blockchain_certificate.jpg",
     },
     {
-      title: 'MySQL Bootcamp',
-      issuer: 'Udemy',
-      date: 'October 2019',
-      image: 'src/components/assets/mysql_certificate.jpg',
+      title: "MySQL Bootcamp",
+      issuer: "Udemy",
+      date: "October 2019",
+      image: "src/components/assets/mysql_certificate.jpg",
     },
   ];
 
@@ -68,10 +66,9 @@ const Certificates = () => {
     <div className="min-h-screen bg-[#1a1a1a] pt-24 px-4 md:px-8 font-mono">
       <div className="max-w-5xl mx-auto">
         {/* Section Title */}
-        <h2 className="text-green-500 text-center text-2xl font-bold mb-10">
-          {'<certificates>'}
+        <h2 className="text-green-500 text-center text-2xl mb-10">
+          {"<certificates>"}
         </h2>
-        {/* <h2> {<Br> </Br>}</h2> */}
 
         {/* Terminal Window */}
         <TerminalCard
@@ -115,8 +112,8 @@ const Certificates = () => {
         )}
 
         {/* Closing Section Title */}
-        <h2 className="text-green-500 text-center text-2xl font-bold mt-10">
-          {'</certificates>'}
+        <h2 className="text-green-500 text-center text-2xl mt-10">
+          {"</certificates>"}
         </h2>
       </div>
     </div>

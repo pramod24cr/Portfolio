@@ -1,15 +1,12 @@
-// src/App.jsx
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Work from './pages/Work';
-import Projects from './pages/Projects';
-import Certificates from './pages/Certificates';
-import Contact from './pages/Contact';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Work from "./pages/Work";
+import Projects from "./pages/Projects";
+import Certificates from "./pages/Certificates";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (

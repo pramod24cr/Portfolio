@@ -1,9 +1,6 @@
 @import "tailwindcss";
 
-/* @tailwind base;
-@tailwind components; */
-@tailwind utilities;
-
+/* 
 body {
   background-color: #1a1a1a;
   color: white;
@@ -11,32 +8,32 @@ body {
 
 .animate-blink {
   animation: blink 1s step-end infinite;
-}
+} */
 
 /* Typewriter Effect */
-.typewriter {
+/* .typewriter {
   font: font-mono;
   display: inline-block;
-  overflow: hidden; /* Hide overflow */
-  border-right: 0.15em solid #00ff9d; /* Cursor */
-  white-space: nowrap; /* Keep text in one line */
-  margin: 0 auto; /* Center the text */
-  letter-spacing: 0.15rem; /* Adjust spacing between letters */
+  overflow: hidden;
+  border-right: 0.15em solid #00ff9d;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15rem;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-}
+} */
 
 /* Typing Animation */
-@keyframes typing {
+/* @keyframes typing {
   from {
     width: 0;
   }
   to {
     width: 100%;
   }
-}
+} */
 
 /* Cursor Blinking Animation */
-@keyframes blink-caret {
+/* @keyframes blink-caret {
   from,
   to {
     border-color: transparent;
@@ -44,4 +41,4 @@ body {
   50% {
     border-color: #00ff9d;
   }
-}
+} */

@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
-import PropTypes from 'prop-types';
-import ContactForm from '../components/ContactForm';
+import React from "react";
+import PropTypes from "prop-types";
+import ContactForm from "../components/ContactForm";
 
 const GithubIcon = () => (
   <svg
@@ -56,8 +56,8 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-[#1a1a1a] pt-16 px-4 md:px-8 font-mono">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-green-500 font-bold text-center text-2xl mb-4">{`<contact >`}</h2>
-        
+        <h2 className="text-green-500 text-center text-2xl mb-4">{`<contact>`}</h2>
+
         <div className="grid md:grid-cols-2 gap-8">
           {/* Contact Form - Left Column */}
           <div className="bg-[#1e1e1e] rounded-lg p-6 shadow-lg">
@@ -68,7 +68,7 @@ const Contact = () => {
           <div className="flex flex-col gap-8">
             {/* Contact Information */}
             <div className="bg-[#1e1e1e] rounded-lg p-6 shadow-lg">
-              <h3 className="text-green-500 font-mono text-lg mb-4">{`<connect />`}</h3>
+              <h3 className="text-green-500 font-mono text-lg mb-4">{`<connect/>`}</h3>
               <div className="space-y-3 text-gray-300 font-mono text-sm">
                 <p>📧 pramod24cr@gmail.com</p>
                 <p>📞 +91 7349095428</p>
@@ -78,7 +78,7 @@ const Contact = () => {
 
             {/* Availability */}
             <div className="bg-[#1e1e1e] rounded-lg p-6 shadow-lg">
-              <h3 className="text-green-500 font-mono text-lg mb-4">{`<availability />`}</h3>
+              <h3 className="text-green-500 font-mono text-lg mb-4">{`<availability/>`}</h3>
               <div className="space-y-3 text-gray-300 font-mono text-sm">
                 <p>Currently open to opportunities.</p>
                 <p>Online and ready to collaborate</p>
@@ -87,7 +87,7 @@ const Contact = () => {
 
             {/* Social Links */}
             <div className="bg-[#1e1e1e] rounded-lg p-6 shadow-lg">
-              <h3 className="text-green-500 font-mono text-lg mb-4">{`<socials />`}</h3>
+              <h3 className="text-green-500 font-mono text-lg mb-4">{`<socials/>`}</h3>
               <div className="grid grid-cols-2 gap-4">
                 <SocialCard
                   icon={LinkedInIcon}
@@ -103,7 +103,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-green-500 font-bold text-center text-2xl mt-4">{`<contact />`}</h2>
+        <h2 className="text-green-500 text-center text-2xl mt-4">{`</contact>`}</h2>
       </div>
     </div>
   );
