@@ -10,7 +10,7 @@ const Projects = () => {
       technologies: ["React", "Javascript", "Tailwind", "Redux"],
       icon: <Utensils size={24} />,
       github: "https://github.com/pramod24cr/FoodPanda",
-      demo: "https://foodpanda-demo.com",
+      demo: "https://food-panda-delivery.vercel.app/",
     },
     {
       title: "NetflixGPT",
