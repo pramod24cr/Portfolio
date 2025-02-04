@@ -40,25 +40,25 @@ const Certificates = () => {
       title: "OCP: Java SE 11 Developer",
       issuer: "Oracle",
       date: "November 2021",
-      image: "src/components/assets/java_certificate.jpg",
+      image: "/assets/java_certificate.jpg",
     },
     {
       title: "Web Development",
       issuer: "Udemy",
       date: "July 2020",
-      image: "src/components/assets/web_dev_certificate.jpg",
+      image: "/assets/web_dev_certificate.jpg",
     },
     {
       title: "Blockchain Development",
       issuer: "TRAKLabs",
       date: "May 2020",
-      image: "src/components/assets/blockchain_certificate.jpg",
+      image: "/assets/blockchain_certificate.jpg",
     },
     {
       title: "MySQL Bootcamp",
       issuer: "Udemy",
       date: "October 2019",
-      image: "src/components/assets/mysql_certificate.jpg",
+      image: "/assets/mysql_certificate.jpg",
     },
   ];
 

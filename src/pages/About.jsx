@@ -42,7 +42,7 @@ SkillTag.propTypes = {
 
 const ResumeButton = () => (
   <a
-    href="src\components\assets\Resume.pdf"
+    href="/assets/Resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center bg-[#2a2a2a] !text-green-500 px-4 py-2 rounded font-medium hover:bg-green-500 hover:!text-[#1e1e1e] transition-colors duration-200"
