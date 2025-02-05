@@ -19,7 +19,7 @@ const Projects = () => {
       technologies: ["React", "Node.js", "OpenAI API", "Redux"],
       icon: <Clapperboard size={24} />,
       github: "https://github.com/pramod24cr/NetflixGPT",
-      demo: "https://netflixgpt-demo.com",
+      demo: "https://netflixgpt-8f8bb.web.app/",
     },
   ];
 
