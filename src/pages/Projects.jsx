@@ -16,7 +16,7 @@ const Projects = () => {
       title: "NetflixGPT",
       description:
         "A Netflix-like app with an integrated AI-powered search feature that suggests movies based on user prompts.",
-      technologies: ["React", "Node.js", "OpenAI API", "Redux"],
+      technologies: ["React", "Javascript", "Tailwind", "Redux", "OpenAI API"],
       icon: <Clapperboard size={24} />,
       github: "https://github.com/pramod24cr/NetflixGPT",
       demo: "https://netflix-gpt-web.vercel.app/",
